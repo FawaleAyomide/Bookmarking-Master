@@ -330,7 +330,7 @@ main p{
     line-height: 1.5rem;
 }
 .sect-3 .btn{
-    padding: .7rem 2rem;
+    padding: .7rem 1.5rem;
     background-color: var(--Soft-Blue);
     color: var(--White);
     cursor: pointer;
@@ -349,7 +349,6 @@ main p{
 }
 .questions button{
     display: flex;
-/*     place-content: center; */
     margin: auto;
     border-top: 1px solid var(--Grayish-Blue);
     width: 32rem;
