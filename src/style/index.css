@@ -349,13 +349,12 @@ main p{
 }
 .questions button{
     display: flex;
-    place-content: center;
     margin: auto;
     border-top: 1px solid var(--Grayish-Blue);
     width: 32rem;
     padding: 1.3rem 0;
     cursor: pointer;
-    justify-content: space-between;
+    justify-content: space-between !important;
     background-color: var(--White);
     color: var(--Very-Dark-Blue);
     font-size: .9rem;
