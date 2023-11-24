@@ -330,7 +330,7 @@ main p{
     line-height: 1.5rem;
 }
 .sect-3 .btn{
-    padding: .7rem 2rem;
+    padding: .7rem 1.5rem;
     background-color: var(--Soft-Blue);
     color: var(--White);
     cursor: pointer;
@@ -371,22 +371,16 @@ main p{
     transition: .6s ease-in-out all;
 }
 .arrowDown{
-    background: url(../images/icon-arrow.svg) no-repeat center;
-    background-size: contain;
-    margin-right: 1rem
-}
-.arrowDown .img{
-    width: 1rem;
-    height: 1rem;
+    margin-right: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--Soft-Blue);
 }
 .arrowUp{
-    background: url(../images/icon-error.svg) no-repeat center;
-    background-size: contain;
-    margin-right: 1rem
-}
-.arrowUp .img{
-    width: 1rem;
-    height: 1rem;
+    margin-right: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--Soft-Red);
 }
 .ans{
  background-color: var(--White);

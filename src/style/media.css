@@ -10,9 +10,12 @@
   .nav-item {
     color: var(--White);
     border-top: 1px solid var(--White);
-    padding: 0.6rem;
     inline-size: 20rem;
     text-align: center;
+  }
+  .last{
+    border-bottom: 1px solid var(--White);
+    padding-bottom: 0.6rem;
   }
   .Navlinks {
     flex-direction: column;
@@ -43,11 +46,12 @@
   }
   .close-icon {
     display: flex;
-    justify-content: flex-end;
-    width: 100%;
+    place-self: flex-end;
     color: var(--White);
-    margin-right: 4rem !important;
+    margin-right: 1.9rem !important;
     margin-top: 1.6rem;
+    width: 2rem;
+    height: 2rem;
     cursor: pointer;
   }
   .close-icon:hover {
@@ -88,9 +92,6 @@
   }
 }
 @media (max-width: 1080px) {
-  main {
-    /* gap: 3rem; */
-  }
   main h1 {
     width: 26rem;
   }
@@ -116,7 +117,6 @@
   .main-bg {
     position: absolute;
     bottom: 0rem;
-    /* width: 50% !important; */
     right: 0;
   }
 }
@@ -172,6 +172,7 @@
   }
   main h1 {
     width: 100%;
+    font-size: 1.8rem;
   }
   main p {
     width: 100%;

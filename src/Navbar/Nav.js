@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import { IoCloseSharp } from "react-icons/io5";
 
 const Nav = () => {
   const [active, setActive] = useState(false);
@@ -17,14 +18,14 @@ const Nav = () => {
           <div className="lines"></div>
         </div>
       <div className={active ? "Navlinks active" : "Navlinks"}>
-        <h1 className="close-icon" onClick={menuShow}>X</h1>
+        <IoCloseSharp className="close-icon" onClick={menuShow}/>
         <Link to="/features" className="nav-item">
           FEATURES
         </Link>
         <Link to="/pricing" className="nav-item">
           PRICING
         </Link>
-        <Link to="/contact" className="nav-item">
+        <Link to="/contact" className="nav-item last">
           CONTACT
         </Link>
         <Link to="/login" className="nav-item navBtn">

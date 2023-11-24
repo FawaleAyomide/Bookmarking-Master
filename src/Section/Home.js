@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { NavLink, Outlet, Link } from "react-router-dom";
+import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 import Aos from "aos";
 import 'aos/dist/aos.css'
 
@@ -131,13 +132,9 @@ const Home = () => {
                 <h3>What is Bookmark?</h3>
               </div>
               {!isOpena ? (
-                <div className="arrowDown">
-                  <div className="img"></div>
-                </div>
+                <IoIosArrowDown className="arrowDown"/>
               ) : (
-                <div className="arrowUp">
-                  <div className="img"></div>
-                </div>
+                  <IoIosArrowUp  className="arrowUp"/>
               )}
             </button>
             {isOpena && (
@@ -160,13 +157,9 @@ const Home = () => {
                 <h3>How can I request a new browser?</h3>
               </div>
               {!isOpenb ? (
-                <div className="arrowDown">
-                  <div className="img"></div>
-                </div>
+                <IoIosArrowDown className="arrowDown"/>
               ) : (
-                <div className="arrowUp">
-                  <div className="img"></div>
-                </div>
+                  <IoIosArrowUp  className="arrowUp"/>
               )}
             </button>
             {isOpenb && (
@@ -192,13 +185,9 @@ const Home = () => {
                 <h3>Is there a mobile app?</h3>
               </div>
               {!isOpenc ? (
-                <div className="arrowDown">
-                  <div className="img"></div>
-                </div>
+                <IoIosArrowDown className="arrowDown"/>
               ) : (
-                <div className="arrowUp">
-                  <div className="img"></div>
-                </div>
+                  <IoIosArrowUp  className="arrowUp"/>
               )}
             </button>
             {isOpenc && (
@@ -222,13 +211,9 @@ const Home = () => {
                 <h3>What about other Chromium browsers?</h3>
               </div>
               {!isOpend ? (
-                <div className="arrowDown">
-                  <div className="img"></div>
-                </div>
+                <IoIosArrowDown className="arrowDown"/>
               ) : (
-                <div className="arrowUp">
-                  <div className="img"></div>
-                </div>
+                  <IoIosArrowUp  className="arrowUp"/>
               )}
             </button>
             {isOpend && (
